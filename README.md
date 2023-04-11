@@ -2,7 +2,7 @@
 ## Description
 This is a simple command-line tool that allows you to check whether a function is available in the C++98 standard. The program takes as argument the functions names and checks whether it is available in C++98 using an online reference (legacy.cplusplus.com).
 ## Usage
-### libcurl must installed on your system
+### libcurl must be installed on your system
     g++ main.cpp -o cpp98_function_checker -lcurl
 
     ./cpp98_function_checker name_of_function
