@@ -5,4 +5,4 @@ This is a simple command-line tool that allows you to check whether a function i
 ### libcurl must be installed on your system
     g++ main.cpp -o cpp98_function_checker -lcurl
 
-    ./cpp98_function_checker name_of_function
+    ./cpp98_function_checker function function ...
